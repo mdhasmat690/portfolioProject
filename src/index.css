@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @keyframes rotate {
+     0% {
+       transform: rotate(0deg);
+     }
+     100% {
+       transform: rotate(359deg);
+     }
+   }
+   @keyframes rotate-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .custom-rotate {
+    animation: rotate-slow 10s linear infinite;  
+    transform-origin: center;
+  }
+
+   @keyframes translate {
+     0% {
+       transform: translate(0, 0);
+     }
+     100% {
+       transform: translate(0, 10px);
+     }
+   }
+   @keyframes translatetree {
+     0% {
+       transform: translate(0, 0);
+     }
+     100% {
+       transform: translate(0, 20px);
+     }
+   }
+
+
+   @keyframes bounce {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .custom-bounce {
+    background-image: url('https://i.ibb.co/4YrTSDD/safe-3.png');
+    animation: bounce 5s ease-in-out infinite; /* Adjust the duration (5s) as needed */
+  }
+
+  .service{
+    background-image: url('https://i.ibb.co/hZq1zvm/service3.png');
+    background-repeat: no-repeat;
+  
+   background-position: center center;
+  
+  }
+
+
+  
+  
+  .custom-bounce {
+    animation: bounce 1s infinite;
+    background-image: url("https://i.ibb.co/4YrTSDD/safe-3.png");
+  }
