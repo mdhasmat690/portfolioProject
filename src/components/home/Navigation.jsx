@@ -30,6 +30,14 @@ function Navigation() {
               "linear-gradient(180deg, rgba(254, 241, 206, 1), rgba(255, 251, 242, 1))",
           }}
         >
+          <div>
+            <img
+              src="https://i.ibb.co/T2THpnJ/svgexport-3.png"
+              alt=""
+              // className="md:w-[20%] lg:w-[15%] xl:max-w-[300px] w-[30%]   rotate-180 relative"
+              className="md:w-[20%] lg:w-[30vh] xl:max-w-[300px] w-[30%]  rotate-180 relative"
+            />
+          </div>
           <div
             style={{
               position: "fixed",
@@ -44,7 +52,7 @@ function Navigation() {
             }}
             className={`  ${
               scrollBg ? "shadow-md   transition-all duration-500" : ""
-            } `}
+            } relative`}
           >
             <div className="w-[90%] mx-auto p-2">
               <div className="navbar  ">
