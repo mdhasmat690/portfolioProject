@@ -11,7 +11,7 @@ function Banner() {
               }}
               src="https://i.ibb.co/1Tj0g4Q/circle.png"
               alt=""
-              className=" md:w-[50%] w-[30%]  mx-auto mt-[-250px] sm:mt-[-150px]"
+              className=" md:w-[50%] w-[40%]  mx-auto mt-[-80px] sm:mt-[-240px]"
             />
           </div>
           <div className="md:mt-[] w-[55%]   mx-auto mt-[-40px]">
@@ -35,7 +35,7 @@ function Banner() {
               />
             </div>
             <div className="w-[80%]  mx-auto ">
-              <div className="text-justify   mx-auto  text-[2.375rem] leading-[1.15] md:text-[3.5rem] lg:text-[2.3rem] xl:text-[3rem] 2xl:text-[4rem] font-[700]">
+              <div className="text-justify   mx-auto  text-[2.375rem] leading-[1.15] md:text-[1.6rem] lg:text-[2.3rem] xl:text-[3rem] 2xl:text-[4rem] font-[700]">
                 <h1 className="  ">
                   Latest <span className="text-[#ed8a0a]">Technology</span>{" "}
                   <br /> used in EveryDay in project
@@ -81,10 +81,10 @@ function Banner() {
                 }}
                 src="https://i.ibb.co/1Tj0g4Q/circle.png"
                 alt=""
-                className="w-[80%] sm:w-[] md:w-[58%]  lg:w-[] xl:w-[] 2xl:w-[]  mt-[] sm:mt-[] md:mt-[-150px] lg:mt-[-220px] xl:mt-[-250px] 2xl:mt-[-416px]  "
+                className="w-[80%] sm:w-[] md:w-[58%]  lg:w-[] xl:w-[] 2xl:w-[]  mt-[] sm:mt-[] md:mt-[-150px] lg:mt-[-220px] xl:mt-[-250px] 2xl:mt-[-316px]  "
               />
             </div>
-            <div className="md:mt-[] lg:mt-[] xl:mt-[]  absolute">
+            <div className="md:mt-[] lg:mt-[] xl:mt-[]   ">
               <img
                 style={{
                   animation: "translate 5s ease-out 0s alternate infinite",
