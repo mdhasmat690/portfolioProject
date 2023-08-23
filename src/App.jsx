@@ -9,8 +9,8 @@ function App() {
     <>
       <Navigation />
       {/* <Banner /> */}
-      {/* <Prject />
-      <Services /> */}
+      <Prject />
+      <Services />
       <br />
       <br />
       <Test />
