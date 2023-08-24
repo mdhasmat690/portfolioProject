@@ -1,3 +1,5 @@
+import { TypeAnimation } from "react-type-animation";
+
 function Banner() {
   return (
     <div className="max-w-screen-2xl md:w-[90%] mt-[-15px] mx-auto">
@@ -38,8 +40,25 @@ function Banner() {
               <div className="text-justify   mx-auto  text-[2.375rem] leading-[1.15] md:text-[1.6rem] lg:text-[2.3rem] xl:text-[3rem] 2xl:text-[3.9`rem] font-[700]">
                 <h1 className="  ">
                   Latest <span className="text-[#ed8a0a]">Technology</span>{" "}
-                  <br /> used in EveryDay in project
+                  <br /> {/* used in EveryDay in project */}
                 </h1>
+
+                <TypeAnimation
+                  sequence={[
+                    // Same substring at the start will only be typed once, initially
+                    "used in EveryDay in project",
+                    1000,
+                    "create Project user friendly",
+                    1000,
+                    //  "used ",
+                    //  1000,
+                    // "We produce food for Chinchillas",
+                    // 1000,
+                  ]}
+                  speed={50}
+                  // style={{ fontSize: "2em" }}
+                  repeat={Infinity}
+                />
               </div>
               <h1>
                 {" "}

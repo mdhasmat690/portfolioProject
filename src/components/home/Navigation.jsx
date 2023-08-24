@@ -57,21 +57,32 @@ function Navigation() {
             <div className="w-[90%] mx-auto p-2">
               <div className="navbar  ">
                 <div className="flex-1">
-                  <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                  <div className="flex items-center">
+                    {" "}
+                    <img
+                      src="https://img.freepik.com/free-vector/letter-h-with-blossoms_53876-66878.jpg?size=626&ext=jpg&ga=GA1.2.1738658831.1683692513&semt=ais"
+                      className="w-[40px] rounded-[50%] mr-2"
+                      alt=""
+                    />
+                    <h2 className="font-[400] text-[20px] md:block hidden">
+                      Md Hasmat
+                    </h2>
+                  </div>
+                  {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
                 </div>
                 <div className="flex-none">
                   <ul className="menu menu-horizontal px-1">
                     <li>
-                      <a>Link</a>
+                      <a>Services</a>
                     </li>
                     <li>
-                      <a>Link</a>
+                      <a>About</a>
                     </li>
                     <li>
-                      <a>Link</a>
+                      <a>Home</a>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <details>
                         <summary>Parent</summary>
                         <ul className="p-2  ">
@@ -83,7 +94,7 @@ function Navigation() {
                           </li>
                         </ul>
                       </details>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
