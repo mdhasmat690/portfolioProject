@@ -45,19 +45,14 @@ function Banner() {
 
                 <TypeAnimation
                   sequence={[
-                    // Same substring at the start will only be typed once, initially
-                    "used in EveryDay in project",
-                    1000,
                     "create Project user friendly",
                     1000,
-                    //  "used ",
-                    //  1000,
-                    // "We produce food for Chinchillas",
-                    // 1000,
+                    "used in EveryDay in project",
+                    1000,
                   ]}
                   speed={50}
                   // style={{ fontSize: "2em" }}
-                  repeat={Infinity}
+                  repeat={0}
                 />
               </div>
               <h1>
