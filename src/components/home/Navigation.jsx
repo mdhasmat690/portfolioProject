@@ -1,9 +1,12 @@
 import { useState } from "react";
 import Banner from "./Banner";
 import { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function Navigation() {
-  const [scrollBg, setScrollBg] = useState(false); // State to track whether to apply scroll background
+  const [scrollBg, setScrollBg] = useState(false);
+  const location = useLocation();
+  const banner = location?.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,12 +34,14 @@ function Navigation() {
           }}
         >
           <div>
-            <img
-              src="https://i.ibb.co/T2THpnJ/svgexport-3.png"
-              alt=""
-              // className="md:w-[20%] lg:w-[15%] xl:max-w-[300px] w-[30%]   rotate-180 relative"
-              className="md:w-[20%] lg:w-[30vh] xl:max-w-[300px] w-[30%]  rotate-180 relative"
-            />
+            {banner && (
+              <img
+                src="https://i.ibb.co/T2THpnJ/svgexport-3.png"
+                alt=""
+                // className="md:w-[20%] lg:w-[15%] xl:max-w-[300px] w-[30%]   rotate-180 relative"
+                className="md:w-[20%] lg:w-[30vh] xl:max-w-[300px] w-[30%]  rotate-180 relative"
+              />
+            )}
           </div>
           <div
             style={{
@@ -64,22 +69,33 @@ function Navigation() {
                       className="w-[40px] rounded-[50%] mr-2"
                       alt=""
                     />
-                    <h2 className="font-[400] text-[20px] md:block hidden">
+                    {/*  <h2 className="font-[400] text-[20px] md:block hidden">
                       Md Hasmat
-                    </h2>
+                    </h2> */}
                   </div>
                   {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
                 </div>
                 <div className="flex-none">
                   <ul className="menu menu-horizontal px-1">
                     <li>
-                      <a>Services</a>
+                      <Link
+                        to={
+                          "https://drive.google.com/file/d/1GY-VZosZ2fIJPwMdwNuQi0DOBvRdmJQF/view?usp=drive_link"
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Resume
+                      </Link>
                     </li>
                     <li>
                       <a>About</a>
                     </li>
                     <li>
-                      <a>Home</a>
+                      <Link to={"/services"}>Services</Link>
+                    </li>
+                    <li>
+                      <Link to={"/"}>Home</Link>
                     </li>
 
                     {/* <li>
@@ -100,7 +116,7 @@ function Navigation() {
               </div>
             </div>
           </div>
-          <Banner />
+          {banner && <Banner />}
         </div>
       </div>
     </>
