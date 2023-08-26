@@ -58,8 +58,9 @@ function Banner() {
               <h1>
                 {" "}
                 <h1 className="   mx-auto text-justify my-10">
-                  We curate the best digital jobs for those who are looking to
-                  start their career in designing.
+                  As a dedicated web developer, I craft elegant, user-friendly
+                  websites that seamlessly blend creativity, functionality, and
+                  responsive design.
                 </h1>
               </h1>
               <div className="   mx-auto rounded-[8px] border border-solid border-[#ddd] shadow-md bg-white flex justify-between items-center p-2 ">

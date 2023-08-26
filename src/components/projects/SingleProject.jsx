@@ -42,9 +42,9 @@ function SingleProject() {
               </span>
             </h1>
 
-            <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
               Live Link
-            </button>
+            </button> */}
           </div>
           <div>
             <img
@@ -85,9 +85,9 @@ function SingleProject() {
               </span>
             </h1>
 
-            <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
               Live Link
-            </button>
+            </button> */}
           </div>
         </div>
         <br />
@@ -108,9 +108,9 @@ function SingleProject() {
               Tools: <span>Next js , bootstrap</span>
             </h1>
 
-            <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
               Live Link
-            </button>
+            </button> */}
           </div>
           <div>
             <img
@@ -145,9 +145,9 @@ function SingleProject() {
               Tools: <span>Next js, express js, mongodb,Mui</span>
             </h1>
 
-            <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
               Live Link
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

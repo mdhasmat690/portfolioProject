@@ -64,11 +64,13 @@ function Navigation() {
                 <div className="flex-1">
                   <div className="flex items-center">
                     {" "}
-                    <img
-                      src="https://img.freepik.com/free-vector/letter-h-with-blossoms_53876-66878.jpg?size=626&ext=jpg&ga=GA1.2.1738658831.1683692513&semt=ais"
-                      className="w-[40px] rounded-[50%] mr-2"
-                      alt=""
-                    />
+                    <Link to={"/"}>
+                      <img
+                        src="https://img.freepik.com/free-vector/letter-h-with-blossoms_53876-66878.jpg?size=626&ext=jpg&ga=GA1.2.1738658831.1683692513&semt=ais"
+                        className="w-[40px] rounded-[50%] mr-2"
+                        alt=""
+                      />
+                    </Link>
                     {/*  <h2 className="font-[400] text-[20px] md:block hidden">
                       Md Hasmat
                     </h2> */}
