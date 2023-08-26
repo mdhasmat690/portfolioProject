@@ -1,4 +1,5 @@
 import { GiTireIronCross } from "react-icons/gi";
+import { Link } from "react-router-dom";
 function Services() {
   return (
     <div className="max-w-screen-2xl mx-auto">
@@ -123,9 +124,11 @@ function Services() {
             <div className="md:text-end text-center">
               {/* <h1>See Portfolio</h1> */}
               <GiTireIronCross className="custom-rotate" />
-              <button className="bg-[#7FC241] p-3 rounded-[12px] text-[18px] font-[600]">
-                See the Portfolio
-              </button>
+              <Link to={"/services"}>
+                <button className="bg-[#7FC241] p-3 rounded-[12px] text-[18px] font-[600]">
+                  See the Portfolio
+                </button>
+              </Link>
             </div>
           </div>
         </div>
