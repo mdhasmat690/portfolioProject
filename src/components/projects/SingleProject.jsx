@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function SingleProject() {
   return (
     <div className=" ">
@@ -42,9 +44,11 @@ function SingleProject() {
               </span>
             </h1>
 
-            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
-              Live Link
-            </button> */}
+            <Link to={"https://sopnomoy-jobsite.netlify.app/"} target="_blank">
+              <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+                Live Link
+              </button>
+            </Link>
           </div>
           <div>
             <img
@@ -84,10 +88,11 @@ function SingleProject() {
                 Mui
               </span>
             </h1>
-
-            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
-              Live Link
-            </button> */}
+            <Link to={"https://parlours.netlify.app/"} target="_blank">
+              <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+                Live Link
+              </button>
+            </Link>
           </div>
         </div>
         <br />
@@ -107,10 +112,11 @@ function SingleProject() {
             <h1 className="text-[18px] text-gray-400 my-5">
               Tools: <span>Next js , bootstrap</span>
             </h1>
-
-            {/* <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
-              Live Link
-            </button> */}
+            <Link to={"https://organic-purlar.vercel.app/"} target="_blank">
+              <button className="bg-[#7FC241] px-3 py-2 rounded-[8px]">
+                Live Link
+              </button>
+            </Link>
           </div>
           <div>
             <img
